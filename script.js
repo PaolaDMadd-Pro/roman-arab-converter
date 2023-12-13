@@ -10,7 +10,7 @@ inputRoman.addEventListener("input", function (event) {
   outputRoman.textContent = roman;
 });
 
-inputArab.addEventListener("change", function (event) {
+inputArab.addEventListener("input", function (event) {
   event.preventDefault(); 
   let response = "please enter a valid Roman number";
   let inputValue = event.target.value;
