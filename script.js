@@ -7,7 +7,12 @@ inputRoman.addEventListener("input", function (event) {
   event.preventDefault();//not provided/suggested by AI
   let inputValue = event.target.value;
   let roman = convertToRoman(inputValue);
+   if(roman == null && inputValue > 4000){
+      outputRoman.textContent =  "enter a number between 1 and 4000";
+  }
+  else{
   outputRoman.textContent = roman;
+  }
 });
 
 inputArab.addEventListener("input", function (event) {
