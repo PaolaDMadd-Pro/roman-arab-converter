@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Kata Converter</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <h1 class="title">Welcome !</h1>
+      <h2 class="subTitle">
+        Insert a number to convert it in to a Roman or an Arabic number.
+      </h2>
+      <div id="wrapper-container">
+          <section class="grid">
+            <label class="description" for="converter-input">
+              Convert into Roman number
+            </label>
+            <div id="converting-group" class="grid-item">
+              <input id="converter-input" type="text" />
+            </div>
+            <div class="grid-item">
+              <p id="converter-output"></p>
+            </div>
+          </section>
+    
+          <section class="grid">
+            <label class="description" for="converter-input-arabic">
+              Convert into Arabic number
+            </label>
+            <div id="converting-group-arabic" class="grid-item arab-clr">
+              <input id="converter-input-arabic" type="text" />
+            </div>
+            <div class="grid-item arab-clr">
+              <p id="converter-output-arabic"></p>
+            </div>
+          </section>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
