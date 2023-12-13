@@ -9,3 +9,8 @@ Code Katas - Roman numerals task
 - Finally, we have the six (optional) substitution rules: “IIII”=>“IV”, “VIIII”=>“IX”, “XXXX”=>“XL”, “LXXXX”=>“XC”, “CCCC”=>“CD”, “DCCCC”=>“CM”. These are exceptions to the descending order rule.
 - The Arabic number 0 is mapped to the empty string.
 - If the input is < 0 or > 4000 return None otherwise return Some(roman), where roman is the Arabic number converted to Roman numerals as described above.
+
+## Additional
+- convert roman to arabic
+- adding checks to limit error when input LL or same caracter over 3 times.
+- testing (TBC)
